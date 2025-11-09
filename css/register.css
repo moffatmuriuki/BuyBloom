@@ -1,0 +1,30 @@
+:root {
+  --bs-body-bg: #A020F0;
+}
+
+body {
+  background: var(--bs-body-bg);
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  height: 450px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  background: white;
+}
+
+#chat {
+  background-color: #14b7db;
+  color: white;
+  padding: 40px;
+  width: 50%;
